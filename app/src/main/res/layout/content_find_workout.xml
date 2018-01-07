@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context="com.example.basas.workoutsadvisor.FindWorkoutActivity"
+   >
+
+    <Spinner
+        android:id="@+id/workoutType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="37dp"
+        android:entries="@array/workout_types"
+        />
+
+    <TextView
+        android:id="@+id/workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/findworkout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Workout List Here!" />
+
+    <Button
+        android:id="@+id/findworkout"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/workoutType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Find my workouts" />
+
+
+
+
+
+
+</RelativeLayout>
